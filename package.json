@@ -1,6 +1,7 @@
 {
   "name": "perf-mcp",
   "version": "0.1.0",
+  "mcpName": "io.github.perf-technology/perf-mcp",
   "type": "module",
   "description": "Fact-check and fix AI outputs. Catches hallucinations, repairs broken JSON, corrects errors — before they reach users.",
   "homepage": "https://withperf.pro",
