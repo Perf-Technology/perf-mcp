@@ -1,0 +1,50 @@
+{
+  "name": "perf-mcp",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Fact-check and fix AI outputs. Catches hallucinations, repairs broken JSON, corrects errors — before they reach users.",
+  "homepage": "https://withperf.pro",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Perf-Technology/perf-mcp.git"
+  },
+  "author": "Perf Technology <hello@withperf.pro>",
+  "license": "MIT",
+  "bin": {
+    "perf-mcp": "./build/index.js"
+  },
+  "files": [
+    "build",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node build/index.js",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0"
+  },
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "hallucination-detection",
+    "hallucination-correction",
+    "fact-checking",
+    "schema-validation",
+    "structured-output",
+    "output-repair",
+    "llm-guardrails",
+    "ai-reliability",
+    "ai-accuracy"
+  ]
+}
