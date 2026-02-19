@@ -1,17 +1,17 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "io.github.perf-technology/perf-mcp",
-  "description": "Fact-check and fix AI outputs. Detects hallucinations via multi-channel verification, validates JSON against schemas with auto-repair, and corrects errors before they reach users.",
+  "name": "io.github.Perf-AI/perf-mcp",
+  "description": "Fact-check and fix AI outputs. Hallucination detection, schema validation, auto-repair.",
   "repository": {
     "url": "https://github.com/Perf-Technology/perf-mcp",
     "source": "github"
   },
-  "version": "0.1.0",
+  "version": "0.1.1",
   "packages": [
     {
       "registryType": "npm",
       "identifier": "perf-mcp",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "transport": {
         "type": "stdio"
       },
